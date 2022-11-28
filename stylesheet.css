@@ -1,3 +1,59 @@
-body{
-    background-color: aqua;
+html {
+    height: 100%;
+}
+/* 
+body {
+    background: linear-gradient(#3fa7f7, rgb(155, 200, 255), #ffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("800696.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background: #000000d0;
+    color: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 33px;
+    width: 33px;
+    background: rgb(171, 170, 170);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+button:hover {
+    background: rgb(191, 191, 191);
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: .4em 1em;
+    border-radius: 24px;
+    background: rgb(170, 170, 170);
+    color: rgb(0, 0, 0);
+    font-size:105%;
+    width: calc(100% - 85px);
 }
